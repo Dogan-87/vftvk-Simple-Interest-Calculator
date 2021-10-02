@@ -1,11 +1,16 @@
-body { background-color: black; font-family: arial; color: white; margin: auto; }
+body { background-color: black; font-family: arial; color: white; }
 
 h1 { color: grey; font-family: verdana; }
 
 .maindiv { background-color: white;
 color: black;
-width: 300px; 
+width: 475px; 
 padding: 20px;
 border-radius: 25px;
 margin: auto;
+}
+.subdiv{
+  position:relative;
+  display: inline-block;
+  left: 25%; 
 }
